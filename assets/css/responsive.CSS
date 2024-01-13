@@ -1,0 +1,59 @@
+/* Tablet */
+@media screen and (max-width: 992px) {
+  nav {
+    display: none;
+  }
+  .menu_bar {
+    display: inline-block;
+  }
+  .inner_service .service_box {
+    flex-basis: 49%;
+  }
+  .count_box {
+    flex-basis: 50%;
+  }
+
+  .inner_protfolio .portfolio_box {
+    flex-basis: 49%;
+  }
+  .inner_blog .blog_box {
+    flex-basis: 49%;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .menu_bar {
+    display: inline-block;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+  .sub_title {
+    font-size: 22px;
+  }
+
+  .frofile {
+    flex-direction: column;
+  }
+  .inner_about {
+    flex-direction: column;
+  }
+  .inner_service .service_box {
+    flex-basis: 100%;
+  }
+  .count_box {
+    flex-basis: 100%;
+  }
+
+  .inner_protfolio .portfolio_box {
+    flex-basis: 100%;
+  }
+  .inner_blog .blog_box {
+    flex-basis: 100%;
+  }
+}
